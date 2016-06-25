@@ -37,6 +37,8 @@ public class Recipes {
         registerRecipes(EquipMaterial.lead);
         registerRecipes(EquipMaterial.silver);
         registerRecipes(EquipMaterial.emerald);
+        registerRecipes(EquipMaterial.bronze);
+        registerRecipes(EquipMaterial.steel);
 
         if(CopperTools.isPneumaticLoaded) registerRecipes(EquipMaterial.compressed);
         if(CopperTools.isTELoaded) registerRecipes(EquipMaterial.enderium);
