@@ -138,8 +138,8 @@ public class EquipMaterial {
         SILVER(2, 250, 8, 2.5F, 18),
         HOLIDAY(0, 32, 12.0F, 0.0F, 22),
         EMERALD(3, 1561, 10.0F, 3.0F, 10),
-        ALUMINUM(2, 400, 5, 1.5F, 10);
-        STEEL(3, 750, 7.0F, 6.5F, 10);
+        ALUMINUM(2, 400, 5, 1.5F, 10),
+        STEEL(3, 750, 7.0F, 6.5F, 10),
         BRONZE(2, 250, 9, 4.5F, 18);
 
         private int harvestLevel;
