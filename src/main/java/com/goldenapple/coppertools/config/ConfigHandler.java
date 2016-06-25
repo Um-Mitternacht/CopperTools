@@ -25,6 +25,8 @@ public class ConfigHandler {
     public static boolean loadThaumiumSickle;
     public static boolean loadVoidSickle;
     public static boolean loadBrassSickle;
+    public static boolean loadBronzeSickle;
+    public static boolean loadSteelSickle;
     public static boolean loadGildedSickle;
     public static boolean loadManasteelSickle;
     public static boolean loadElementiumSickle;
