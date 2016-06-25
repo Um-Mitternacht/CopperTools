@@ -24,6 +24,8 @@ public class EquipMaterial {
     public static EquipMaterial silver = new EquipMaterial("silver", "ingotSilver", null, DefaultTool.SILVER, null, DefaultArmor.SILVER, true, true, true);
     public static EquipMaterial emerald = new EquipMaterial("emerald", "gemEmerald", null, DefaultTool.EMERALD, null, DefaultArmor.EMERALD, true, true, true);
     public static EquipMaterial aluminum = new EquipMaterial("aluminum", "ingotAluminum", null, DefaultTool.ALUMINUM, null, DefaultArmor.ALUMINUM, true, true, true);
+    public static EquipMaterial bronze = new EquipMaterial("bronze", "ingotBronze", null, DefaultTool.BRONZE, null, DefaultArmor.BRONZE, true, true, true);    
+    public static EquipMaterial steel = new EquipMaterial("steel", "ingotSteel", null, DefaultTool.STEEL, null, DefaultArmor.STEEL, true, true, true);    
 
     //Gem armor
     public static EquipMaterial ruby = new EquipMaterial("ruby", "gemRuby", null, null, null, DefaultArmor.GEM, false, true, false);
@@ -97,6 +99,8 @@ public class EquipMaterial {
         EMERALD(33, new int[]{3, 8, 6, 3}, 10),
         GEM(27, new int[]{2, 6, 5, 2}, 17),
         ALUMINUM(20, new int[]{3, 6, 5, 2}, 17);
+        BRONZE(17, new int[]{4, 8, 5, 2}, 19);
+        STEEL(30, new int[]{3, 8, 6, 3}, 10);
 
         private int durability;
         private int[] protection;
@@ -133,6 +137,8 @@ public class EquipMaterial {
         HOLIDAY(0, 32, 12.0F, 0.0F, 22),
         EMERALD(3, 1561, 10.0F, 3.0F, 10),
         ALUMINUM(2, 400, 5, 1.5F, 10);
+        STEEL(3, 750, 7.0F, 6.5F, 10);
+        BRONZE(2, 250, 9, 4.5F, 18);
 
         private int harvestLevel;
         private int durability;
