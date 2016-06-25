@@ -24,8 +24,6 @@ install: ./gradlew setupCIWorkspace -S
 
 script:
 - ./gradlew build
-- ls -la build/libs
-- ls -la build/packages
 - bundle exec ./tools/checksum_builds.rb | tee ./checksums.txt
 
 # Deploy the artifacts back to GitHub
@@ -35,10 +33,10 @@ deploy:
   file_glob: true
   file:
   - "checksums.txt"
-  - "build/libs/growthcraft-*-complete.jar"
-  - "build/libs/growthcraft-*-api.jar"
-  - "build/libs/growthcraft-*-deobf.jar"
-  - "build/libs/growthcraft-*-javadoc.jar"
+  - "build/libs/coppertools-*-complete.jar"
+  - "build/libs/coppertools-*-api.jar"
+  - "build/libs/coppertools-*-deobf.jar"
+  - "build/libs/coppertools-*-javadoc.jar"
   - "build/libs/coppertools-*-sources.jar"
   skip_cleanup: true
   on:
