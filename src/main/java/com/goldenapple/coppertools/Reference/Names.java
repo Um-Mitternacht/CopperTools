@@ -11,8 +11,8 @@ public class Names {
     public static final String THAUMIUM_SICKLE = "thaumium_sickle";
     public static final String VOID_SICKLE = "void_sickle";
     public static final String BRASS_SICKLE = "brass_sickle";
-    public static final String BRASS_SICKLE = "steel_sickle";
-    public static final String BRASS_SICKLE = "bronze_sickle";
+    public static final String STEEL_SICKLE = "steel_sickle";
+    public static final String BRONZE_SICKLE = "bronze_sickle";
     public static final String GILDED_SICKLE = "gilded_sickle";
     public static final String MANASTEEL_SICKLE = "manasteel_sickle";
     public static final String ELEMENTIUM_SICKLE = "elementium_sickle";
