@@ -24,7 +24,6 @@ install: ./gradlew setupCIWorkspace -S
 
 script:
 - ./gradlew build
-- bundle exec ./tools/split_jars.rb
 - ls -la build/libs
 - ls -la build/packages
 - bundle exec ./tools/checksum_builds.rb | tee ./checksums.txt
@@ -40,10 +39,7 @@ deploy:
   - "build/libs/growthcraft-*-api.jar"
   - "build/libs/growthcraft-*-deobf.jar"
   - "build/libs/growthcraft-*-javadoc.jar"
-  - "build/libs/growthcraft-*-sources.jar"
-  # separate jars
-  - "build/packages/growthcraft-*-complete-*.jar"
-  - "build/packages/growthcraft-*-deobf-*.jar"
+  - "build/libs/coppertools-*-sources.jar"
   skip_cleanup: true
   on:
     tags: true
