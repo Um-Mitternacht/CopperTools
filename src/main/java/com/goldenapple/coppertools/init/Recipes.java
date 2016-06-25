@@ -57,6 +57,8 @@ public class Recipes {
                 registerSickleRecipes("gold", "ingotGold", false);
             }
             if(ConfigHandler.loadBrassSickle) registerSickleRecipes("brass", "ingotBrass", false);
+            if(ConfigHandler.loadSteelSickle) registerSickleRecipes("steel", "ingotSteel", false);
+            if(ConfigHandler.loadSteelSickle) registerSickleRecipes("bronze", "ingotBronze", false);
             if(ConfigHandler.loadGildedSickle && CopperTools.isSteamPowerLoaded) registerSickleRecipes("gilded", new ItemStack(GameRegistry.findItem("Steamcraft", "steamcraftIngot"), 1, 3), false);
             if(ConfigHandler.loadThaumiumSickle && CopperTools.isThaumcraftLoaded) registerSickleRecipes("thaumium", "ingotThaumium", false);
             if(ConfigHandler.loadVoidSickle && CopperTools.isThaumcraftLoaded) registerSickleRecipes("void", "ingotVoid", false);
