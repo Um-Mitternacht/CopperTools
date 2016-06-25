@@ -67,6 +67,8 @@ public class EquipMaterial {
     public static void init(){
         registry.add(copper);
         registry.add(platinum);
+        registry.add(steel);
+        registry.add(bronze);
         if(CopperTools.isPneumaticLoaded) registry.add(compressed);
         registry.add(lead);
         enderium.useObsidian = true;
