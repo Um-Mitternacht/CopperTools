@@ -100,8 +100,8 @@ public class EquipMaterial {
         HOLIDAY(5, new int[]{3, 8, 6, 3}, 25),
         EMERALD(33, new int[]{3, 8, 6, 3}, 10),
         GEM(27, new int[]{2, 6, 5, 2}, 17),
-        ALUMINUM(20, new int[]{3, 6, 5, 2}, 17);
-        BRONZE(17, new int[]{4, 8, 5, 2}, 19);
+        ALUMINUM(20, new int[]{3, 6, 5, 2}, 17),
+        BRONZE(17, new int[]{4, 8, 5, 2}, 19),
         STEEL(30, new int[]{3, 8, 6, 3}, 10);
 
         private int durability;
